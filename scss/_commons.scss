@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//ID
+#cargando {
+    display: none;
+}
+
+//NAV
+nav {
+    img {
+        width: 100px;
+    }
+}
+
+//ANIMACION
+.scale:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}

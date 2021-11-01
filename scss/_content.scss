@@ -1,0 +1,16 @@
+body {
+    background: url(../imagenesLogos/fondoBody.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
+h1 {
+    font-family: $fontMain;
+    padding: 20px;
+}
+
+h2 {
+    font-family: $fontMain;
+    padding: 20px;
+}
