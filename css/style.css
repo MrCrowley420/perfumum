@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+#cargando {
+  display: none; }
+
+nav img {
+  width: 100px; }
+
+.scale:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer; }
+
+body {
+  background: url(../imagenesLogos/fondoBody.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top; }
+
+h1 {
+  font-family: "Abril Fatface", sans-serif;
+  padding: 20px; }
+
+h2 {
+  font-family: "Abril Fatface", sans-serif;
+  padding: 20px; }
