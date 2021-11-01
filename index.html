@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Perfumum bue Martinez</title>
+</head>
+
+<body>
+
+    <header>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand scale" href="./index.html"><img src="./imagenesLogos/logoPerfumum.png" alt="logo de perfumum bue"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <img src="./imagenesLogos/carritoRosa.png" class="nav-link dropdown-toggle img-fluid scale" height="70px" width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></img>
+                            <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                <table id="lista-carrito" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="btn btn-danger btn-block p-2">Vaciar Carrito</a>
+                                <a href="#" id="procesar-pedido" class="btn btn-success btn-block">Procesar Compra</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cuidados ambientales
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Lamp bue</a></li>
+                                <li><a class="dropdown-item" href="#">Difusor de varas</a></li>
+                                <li><a class="dropdown-item" href="#">Textil</a></li>
+                                <li><a class="dropdown-item" href="#">Difusor Ultrasonico</a></li>
+                                <li><a class="dropdown-item" href="#">Kits Ambientales</a></li>
+                                <li><a class="dropdown-item" href="#">Aceites y Velas</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="#">Frascos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Realiza tu pedido,<br> Nosotros te lo llevamos!</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cuidados personales
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Rostro</a></li>
+                                <li><a class="dropdown-item" href="#">Corporal</a></li>
+                                <li><a class="dropdown-item" href="#">Capilar</a></li>
+                                <li><a class="dropdown-item" href="#">Manos</a></li>
+                                <li><a class="dropdown-item" href="#">Jabon</a></li>
+                                <li><a class="dropdown-item" href="#">Kits de cuidados personales</a></li>
+                                <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                                <li><a class="dropdown-item" href="#">Serums</a></li>
+                                <li><a class="dropdown-item" href="#">Nuevas mascaras Home&Spa</a></li>
+                                <li><a class="dropdown-item" href="#">Linea Hammam</a></li>
+                                <li><a class="dropdown-item" href="#">Linea Herbevita</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Realiza tu pedido,<br> Nosotros te lo llevamos!</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex bg-secondary">
+                        <input class="form-control me-2" type="search" placeholder="Busca tu producto" aria-label="Search" id="buscadorInput">
+                        <button class="btn btn-outline-light" type="submit" id="botonBuscador">Buscar</button>
+                        <div id="printInput">
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+        <h1 class="text-center bg-secondary text-white">PERFUMUM BUE MARTINEZ</h1>
+
+    </header>
+
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+
+            <h2 class="text-white">ENVIOS A DOMICILIO SIN COSTO!</h2>
+        </div>
+
+        <div class="container" id="lista-productos">
+            <!-- Aca se imprimen los productos -->
+        </div>
+    </main>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+
+</html>
