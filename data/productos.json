@@ -1,0 +1,64 @@
+[{
+        "id": 1,
+        "nombre": "DIFUSOR DE VARAS CLASICO",
+        "imagen": "./img/varas.jpg",
+        "precio": "2400",
+        "detalles": ["Perfumum Bue logra el balance perfecto entre calidad y cantidad de fragancia, garantizando una experiencia duradera y agradable en el ambiente."]
+    },
+    {
+        "id": 2,
+        "nombre": "Difusor Ultrasonico",
+        "imagen": "./img/difusorUltraSonico.jpg",
+        "precio": "9900",
+        "detalles": ["El Difusor Ultrasónico para Aromaterapia viene con la opción de luz de colores.  A través de su tecnología ultrasónica las moléculas de los aceites esenciales son propulsadas al aire. Gracias a sus acciones positivas, tienen propiedades, antisépticas, bactericidas, limpian el aire, y actúan tanto a nivel físico como a nivel emocional, contribuyendo a crear la atmósfera relajante de un spa en su casa, oficina o consultorio. No te olvidés de comprar tu aceite esencial."]
+    },
+    {
+        "id": 3,
+        "nombre": "LAMP BUE Van Gogh",
+        "imagen": "./img/lampVanGogh.jpg",
+        "precio": "9000",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 4,
+        "nombre": "Hammam Aceite Corporal",
+        "imagen": "./img/hammamAceite.jpg",
+        "precio": "3030",
+        "detalles": ["Óleo de Argán, Óleo de Maracuyá: controla la oleosidad de la piel y la hidrata. Repara los tejidos de la piel, por lo que se usa como tratamiento antiedad. Extracto de Gingko Biloba: antioxidante, favorece la circulación. Extracto de Hammamelis: antiinflamatorio y cicatrizante. Extracto de Jengibre: antioxidante y reafirmante."]
+    },
+    {
+        "id": 5,
+        "nombre": "Aromatizador Textil Linea Clasica 500 ml",
+        "imagen": "./img/aromatizadorTextil.jpg",
+        "precio": "1600",
+        "detalles": ["Perfumum Bue te propone reforzar la perfumación obtenida con las varas difusoras en el ambiente, con el uso del aromatizador textil."]
+    },
+    {
+        "id": 6,
+        "nombre": "Promo Kit Facial",
+        "imagen": "./img/promoKitFacial.jpg",
+        "precio": "7250",
+        "detalles": ["Paso1 – Agua Micelar  – 125 ml de REGALO", "Paso 2 – Serum 4  – 30 ml", "Paso 3 – Bruma de Argan Mini de REGALO, Paso 4 – Gel Contorno de Ojos – 30 ml", "Paso 5 Mañana – Crema Gel de Día Radiante  – 50 ml", "Paso 6 Noche – Crema Gel de Noche Nutritiva  – 50 ml"]
+    },
+    {
+        "id": 7,
+        "nombre": "Serum",
+        "imagen": "./img/serum.jpg",
+        "precio": "1950",
+        "detalles": ["Es la sumatoria de los Serums individuales de: Caléndula, Aloe Vera, Acido Hialurónico y Colágeno."]
+    },
+    {
+        "id": 8,
+        "nombre": "Bidón Varas Línea Clásica 1,5 lts + Frasco Boticario con varas",
+        "imagen": "./img/bidonVarasMasFrasco.jpg",
+        "precio": "6800",
+        "detalles": ["Llevando 1 bidón para varas recibís un Frasco Boticario y un juego de varas de regalo"]
+    },
+    {
+        "id": 9,
+        "nombre": "Bidón Lamp Bue Fragancia Clásica 1,5 lts",
+        "imagen": "./img/bidonLamp.jpg",
+        "precio": "3900",
+        "detalles": ["Líquido para el uso de la Lamp Bue exclusivamente.", "No apto para varas, textiles, ni flor de tapioca.", "Elegí tu fragancia favorita."]
+    }
+]

@@ -247,11 +247,11 @@ class Carrito {
 
 
 
-$("#botonBuscador").click(() => {
-    console.log(document.getElementById("buscadorInput").value)
-        // console.log("Hola mundo")
-        // console.log($("#buscadorInput").value)
-});
+// $("#botonBuscador").click(() => {
+//     console.log(document.getElementById("buscadorInput").value)
+// console.log("Hola mundo")
+// console.log($("#buscadorInput").value)
+// });
 
 //-------------------------------------------------------------------------------------
 
@@ -259,3 +259,33 @@ $("#botonBuscador").click(() => {
 // <p> DESDE APPEND CON JQ </p>
 // `)
 // console.log($("#lista-productos"));
+
+//ANIMACIONES JQUERY
+$("main").prepend('<h3 class= "tituloDos text-center"> Animaciones jQuery </h3>');
+
+$(".tituloDos").animate({
+        left: '150px',
+        opacity: '1.5',
+        height: '150px',
+        width: '150px'
+    },
+    4000,
+    function() {
+        console.log("final de animacion")
+    });
+
+$("h1").css("background-color", "green")
+    .slideDown(4000)
+    .slideUp(4000)
+    .slideDown(4000)
+    .slideUp(4000)
+    .delay(2000)
+    .slideDown(4000)
+    .slideUp(4000)
+    .slideDown(4000)
+    .slideUp(4000)
+    .slideDown(4000);
+
+$("#dropdown01").on('click', () => {
+    $("#dropdown01").slideToggle(2000);
+})
