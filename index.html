@@ -32,7 +32,7 @@
                         <li class="nav-item dropdown">
                             <img src="./imagenesLogos/carritoRosa.png" class="nav-link dropdown-toggle img-fluid scale" height="70px" width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></img>
                             <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
-                                <table id="lista-carrito" class="table">
+                                <table id="lista-carrito" class="table bg-light">
                                     <thead>
                                         <tr>
                                             <th>Imagen</th>
@@ -43,9 +43,10 @@
                                     </thead>
                                     <tbody></tbody>
                                 </table>
-
-                                <a href="#" id="vaciar-carrito" class="btn btn-danger btn-block p-2">Vaciar Carrito</a>
-                                <a href="#" id="procesar-pedido" class="btn btn-success btn-block">Procesar Compra</a>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a href="#" id="vaciar-carrito" class="btn btn-outline-danger btn-block">Vaciar Carrito</a>
+                                    <a href="#" id="procesar-pedido" class="btn btn-outline-success btn-block">Procesar Compra</a>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -56,7 +57,7 @@
                             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a id="theme" class="nav-link active">Pink mode</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -127,15 +128,16 @@
     </main>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/sweetalert2.min.js"></script>
-    <script src="js/carrito.js"></script>
-    <script src="js/pedido.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/sweetalert2.min.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/pedido.js"></script>
 
 </body>
 

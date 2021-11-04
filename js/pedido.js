@@ -40,68 +40,28 @@ function cargarEventos() {
 }
 
 
-// async function fetchProductos() {
-//     let res = await fetch("../data/productos.json");
-//     let data = await res.json();
-//     let html = "";
-//     data.forEach((producto, index) => {
-//                 curr = `
-// 				<div class="card mb-4 shadow-sm ">
-// 				<div class="card-header">
-// 					<h4 class="my-0 font-weight-bold">${producto.nombre}</h4>
-// 				</div>
-// 				<div class="card-body d-flex flex-column">
 
-// 					<img src=${producto.imagen} class="card-img-top" alt=${producto.nombre}>
-// 					<h1 class="card-title pricing-card-title precio">$ <span class="">${producto.precio}</span></h1>
-
-// 					<ul class="list-unstyled mt-3 mb-4">
-// 					${producto.detalles
-// 						.map(
-// 							(ele) => `
-// 							<li>${ele}</li>
-// 						`
-// 						)
-// 						.join("")}
-// 					</ul>
-// 					<a type="button" class="align-self-end btn btn-block btn-primary agregar-carrito text-white" style="margin-top: auto;" data-id=${producto.id}>COMPRAR  </a>
-// 				</div>
-// 			</div>
-// 		`
-// 		if(index === 0){
-// 			html += `<div class="card-deck mb-3 text-center md:w-10">${curr}`
-// 		}else if(index % 3 === 0 && index !== 0){
-// 			html += `</div><div class="card-deck mb-3 text-center md:w-10">${curr}`
-// 		}else{
-// 			html += curr
-// 		}
-// 	});
-// 	productos.innerHTML = html;
-// }
 
 async function fetchProductos() {
-    let res = await fetch("../data/productos.json");
+    let res = await fetch("api.json");
     let data = await res.json();
     let html = "";
     data.forEach((producto, index) => {
                 card = `
-				<div class="card mb-4 shadow-sm ">
+				<div class="card mb-4 shadow-sm" style="width: 18rem;">
 				<div class="card-header">
-					<h4 class="my-0 font-weight-bold">${producto.nombre}</h4>
+					<h4 class="card-title">${producto.nombre}</h4>
+					
 				</div>
-				<div class="card-body d-flex flex-column">
-
+				<div class="card-body d-flex flex-column" id = "cardBody">
+	
 					<img src=${producto.imagen} class="card-img-top" alt=${producto.nombre}>
 					<h1 class="card-title pricing-card-title precio">$ <span class="">${producto.precio}</span></h1>
-
+					<h4 class="card-title">Categoria: ${producto.categoria}</h4>
 					<ul class="list-unstyled mt-3 mb-4">
-					${producto.detalles
-						.map(
-							(ele) => `
-							<li>${ele}</li>
-						`
-						)
-						.join("")}
+						${producto.detalles .map( (ele) => `
+						<li>${ele}</li>
+						` ) .join("")}
 					</ul>
 					<a type="button" class="align-self-end btn btn-block btn-primary agregar-carrito text-white" style="margin-top: auto;" data-id=${producto.id}>COMPRAR  </a>
 				</div>
@@ -109,7 +69,7 @@ async function fetchProductos() {
 		`
 		if(index === 0){
 			html += `<div class="card-deck mb-3 text-center md:w-10">${card}`
-		}else if(index % 3 === 0 && index !== 0){
+		}else if(index % 4 === 0 && index !== 0){
 			html += `</div><div class="card-deck mb-3 text-center md:w-10">${card}`
 		}else{
 			html += card

@@ -1,0 +1,138 @@
+[{
+        "id": 1,
+        "nombre": "Lamp Bue Animal Print Pedestal – SYBL-028",
+        "imagen": "./imagenesProductos/lamp/LampBueAnimalPrintPedestalSYBL028.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 2,
+        "nombre": "Lamp Bue Clásica Grande SBYL-011",
+        "imagen": "./imagenesProductos/lamp/LampBueClasicaGrandeSBYL-011.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 3,
+        "nombre": "Lamp Bue Gaudi turquesa FD31",
+        "imagen": "./imagenesProductos/lamp/LampBueGaudiTurquesaUno.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 4,
+        "nombre": "Lamp Bue Cristal Grande IZ010",
+        "imagen": "./imagenesProductos/lamp/LampBueCristalGrandeIZ010.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "7400",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 5,
+        "nombre": "Lamp Bue Cristal Grande JZ014",
+        "imagen": "./imagenesProductos/lamp/LampBueCristalGrandeJZ014.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "7400",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 6,
+        "nombre": "Lamp Bue Premium Grande SBYL-040",
+        "imagen": "./imagenesProductos/lamp/LampBuePremiumGrandeSBYL040.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 7,
+        "nombre": "Lamp Bue Exclusiva Grande Nacar",
+        "imagen": "./imagenesProductos/lamp/LampBueExclusivaGrandeNacar.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["ELa Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 8,
+        "nombre": "Lamp Bue Exclusiva Grande KB132A-149D",
+        "imagen": "./imagenesProductos/lamp/LampBueExclusivaGrandeKB132A149D.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 9,
+        "nombre": "Lamp Bue Animal Print – KB114",
+        "imagen": "./imagenesProductos/lamp/LampBueAnimalPrinKB114.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 10,
+        "nombre": "Lamp Bue Miró Gota – KB063",
+        "imagen": "./imagenesProductos/lamp/LampBueMiroGotaKB063.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 11,
+        "nombre": "Lamp Bue Kahlo – SBYL-001",
+        "imagen": "./imagenesProductos/lamp/LampBueKahloSBYL001.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9500",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 12,
+        "nombre": "Lamp Bue Roux – KB106A-135",
+        "imagen": "./imagenesProductos/lamp/LampBueRouxKB106A135.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9500",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 13,
+        "nombre": "Lamp Bue Marmol",
+        "imagen": "./imagenesProductos/lamp/LampBueMarmol.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["La Lamp Bue es un objeto maravilloso que brinda muchos beneficios además de perfumar el ambiente. No te olvides de agregar al carrito tu fragancia favorita."]
+    },
+    {
+        "id": 14,
+        "nombre": "Mecha Lamp Bue Chica 10 cm",
+        "imagen": "./imagenesProductos/lamp/MechaLampBueChica10cm.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "730",
+        "detalles": ["Mechas de 1o cm.Perfumum Bue te ofrece el repuesto de su mecha para las Lamp Bue."]
+    },
+    {
+        "id": 15,
+        "nombre": "Mecha Lamp Bue Grande 15 cm",
+        "imagen": "./imagenesProductos/lamp/MechaLampBueGrande15cm.jpg",
+	"imagenDos": "./imagenesProductos/lamp/LampBueMuestra.jpg",
+	"categoria": "lamp",
+        "precio": "9900",
+        "detalles": ["Mechas de 15 cm. Perfumum Bue te ofrece el repuesto de su mecha para las Lamp Bue."]
+    }
+
+
+]

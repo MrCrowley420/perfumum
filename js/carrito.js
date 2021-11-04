@@ -3,7 +3,7 @@ class Carrito {
     //Añadir producto al carrito
     comprarProducto(e) {
         e.preventDefault();
-        //Delegado para agregar al carrito
+        //esto es para agregar al carrito
         if (e.target.classList.contains('agregar-carrito')) {
             const producto = e.target.parentElement.parentElement;
             //Enviamos el producto seleccionado para tomar sus datos
@@ -261,7 +261,7 @@ class Carrito {
 // console.log($("#lista-productos"));
 
 //ANIMACIONES JQUERY
-$("main").prepend('<h3 class= "tituloDos text-center"> Animaciones jQuery </h3>');
+/* $("main").prepend('<h3 class= "tituloDos text-center"> Animaciones jQuery </h3>');
 
 $(".tituloDos").animate({
         left: '150px',
@@ -289,3 +289,31 @@ $("h1").css("background-color", "green")
 $("#dropdown01").on('click', () => {
     $("#dropdown01").slideToggle(2000);
 })
+ */
+//DARK MODE CON JQUERY--------------------------------------------------------------------------------------------------
+
+const darkMode = () => {
+
+    $("h1").css("color", "pink")
+    $("h4").css("color", "pink")
+    $("ul li").css("color", "pink")
+
+    localStorage.setItem("theme", "dark")
+}
+const lightMode = () => {
+
+    $("h1").css("color", "black")
+    $("h4").css("color", "black")
+    $("ul li").css("color", "black")
+    localStorage.setItem("theme", "light")
+}
+
+
+$("#theme").on("click", () => {
+        if (localStorage.getItem("theme") === "dark") {
+            lightMode()
+        } else {
+            darkMode()
+        }
+    })
+    //-----------------------------------------------------------------------------------------------------------------------------------
