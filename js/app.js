@@ -1,15 +1,15 @@
 const url = "https://dolarsi.com/api/api.php?type=valoresprincipales"
 
-$("#botonDolar").click(() => {
-    $.get(url, (data, estado) => {
-        if (estado == "success") {
-            //  console.log(data)
-            console.log("DOLAR ACTUALIZADO")
 
-            data.forEach(element => {
+$.get(url, (data, estado) => {
+    if (estado == "success") {
+        //  console.log(data)
+        console.log("DOLAR ACTUALIZADO")
 
-                $("#dolar").append(
-                    `
+        data.forEach(element => {
+
+            $("#dolar").append(
+                `
                     <div class="card m-3
                     " style="width: 18rem;">
                         <img src="./imagenesLogos/dolar.gif" class="card-img-top" alt="...">
@@ -23,11 +23,9 @@ $("#botonDolar").click(() => {
                         </div>
                     </div>
                     `
-                );
-            })
-        }
-    });
 
-
+            );
+        })
+    }
 
 });

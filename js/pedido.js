@@ -68,12 +68,11 @@ async function fetchProductos() {
 			</div>
 		`
 		if(index === 0){
-			html += `<div class="card-deck mb-3 text-center md:w-10">${card}`
+			html += `<div class="card-deck mb-3 col-lg-12 text-center md:w-10">${card}`
 		}else if(index % 4 === 0 && index !== 0){
-			html += `</div><div class="card-deck mb-3 text-center md:w-10">${card}`
+			html += `</div><div class="card-deck mb-3 col-lg-12 text-center md:w-10">${card}`
 		}else{
 			html += card
 		}
-	});
-	productos.innerHTML = html;
-}
+	})
+	productos.innerHTML = html;}
