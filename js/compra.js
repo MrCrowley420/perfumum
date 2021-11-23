@@ -84,9 +84,8 @@ function procesarCompra() {
                 cargandoGif.style.display = 'block';
 
                 const enviado = document.createElement('img');
-                enviado.src = 'img/mail.gif';
+                enviado.src = './imagenesLogos/caracolMail.gif';
                 enviado.style.display = 'block';
-                enviado.width = '150';
 
                 const serviceID = 'default_service';
                 const templateID = 'template_gzyprxv';
@@ -100,7 +99,7 @@ function procesarCompra() {
                             compra.vaciarLocalStorage();
                             enviado.remove();
                             window.location = "index.html";
-                        }, 2000);
+                        }, 4000);
                     }, (err) => {
                         cargandoGif.style.display = 'none';
                         alert("Error al enviar el email\r\n Response:\n " + JSON.stringify(err));

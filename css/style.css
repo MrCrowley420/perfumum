@@ -4,7 +4,11 @@
   padding: 0; }
 
 #cargando {
-  display: none; }
+  display: none;
+  width: 150px; }
+
+#loaders img {
+  width: 150px; }
 
 nav img {
   width: 100px; }
